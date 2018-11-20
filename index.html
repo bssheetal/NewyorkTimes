@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>NY Times Search</h1>
+        </div>
+    </div>
+    <form>
+        <div class="form-group">
+            <label for="inputAddress">Search Parameters</label>
+            <input type="text" class="form-control" id="searchTermBox" placeholder="Search Term:">
+        </div>
+        <div class="form-group">
+            <label for="inputAddress2">Number of Records to Retrieve</label>
+            <input type="text" class="form-control" id="numberRecordsBox" placeholder="Number of Records">
+        </div>
+        <div class="form-group">
+            <label for="inputAddress">Start Year (optional):</label>
+            <input type="text" class="form-control" id="startYearBox" placeholder="Start Year:">
+        </div>
+        <div class="form-group">
+            <label for="inputAddress">End Year (optional)</label>
+            <input type="text" class="form-control" id="endYearBox" placeholder="End Year:">
+        </div>
+        <button class="btn btn-primary" id="searchButton" type="submit">Search</button>
+        <input class="btn btn-primary" type="reset" value="Reset">
+    </form>
+    <div id="contentDiv">
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="assets/NYT.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
